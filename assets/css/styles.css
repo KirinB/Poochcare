@@ -799,6 +799,14 @@ form#subscribe button {
   flex-basis: 27%;
 }
 
+@media only screen and (max-width: 667px) {
+  form#subscribe button {
+    width: 100%;
+    display: block;
+    margin-top: 16px;
+  }
+}
+
 /* Footer  */
 
 footer {
