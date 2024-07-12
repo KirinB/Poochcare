@@ -205,6 +205,10 @@ header.nav-fixed {
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
 }
 
+header .header_site {
+  background-color: var(--bg-color);
+}
+
 .navbar .navbar-brand {
   color: var(--primary-color);
   font-size: 34px;
@@ -274,7 +278,7 @@ header.nav-fixed {
   font-size: 14px;
 }
 
-#pc_navbar .navbar_mode {
+.navbar_mode {
   width: 24px;
   height: 24px;
   padding: 3px 0;
@@ -347,6 +351,19 @@ header.nav-fixed {
 .dropdown-menu li a.active {
   color: var(--primary-color);
   background-color: transparent;
+}
+
+.navbar button i {
+  color: #fff;
+  line-height: 34px;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.header_space {
+  margin-bottom: 90px;
 }
 
 /* Carousel */
@@ -964,4 +981,47 @@ footer .social_footer > ul li {
   border-radius: initial;
   border-bottom-right-radius: 6px;
   border-top-right-radius: 6px;
+}
+
+/* Mobile  */
+
+@media only screen and (max-width: 992px) {
+  .navbar_mode {
+    position: absolute;
+    right: 80px;
+    top: 14px;
+  }
+  #pc_navbar .nav-link {
+    padding: 6px 0;
+  }
+  #pc_navbar .navbar-nav {
+    padding: 20px 0;
+  }
+  #pc_navbar .navbar_search {
+    padding: 20px 0;
+  }
+  #pc_navbar .dropdown-menu {
+    position: static;
+    transform: translateX(0);
+    text-align: center;
+  }
+  .dropdown-item:hover::before,
+  #pc_navbar .nav-link:hover::before {
+    width: 0;
+  }
+
+  /* Banner  */
+
+  .pc_carousel .carousel_item {
+    min-height: 480px;
+  }
+  .pc_carousel .banner_info h5 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  /* Our Plans  */
+  .pc_plans .list_plans {
+    gap: 20px;
+    margin: 30px auto;
+  }
 }

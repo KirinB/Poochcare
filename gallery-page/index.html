@@ -47,25 +47,25 @@
 
   <body>
     <!-- Header  -->
-
-    <header class="sticky-top" id="site_header">
+    <header class="fixed-top" id="site_header">
       <!-- Navbar  -->
-      <nav class="navbar navbar-expand-lg container">
-        <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container position-relative header_site">
           <a class="navbar-brand" href="./../index.html">Pooch Care</a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler border-0"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#pc_navbar"
             aria-controls="pc_navbar"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            id="toggle-btn"
           >
-            <span class="navbar-toggler-icon"></span>
+            <i class="fa-solid fa-bars" id="toggle-i"></i>
           </button>
           <div
-            class="collapse navbar-collapse justify-content-end align-items-center"
+            class="collapse navbar-collapse justify-content-end align-items-center text-center"
             id="pc_navbar"
           >
             <ul class="navbar-nav">
@@ -73,7 +73,7 @@
                 <a class="nav-link" href="./../index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./../about-page/">About</a>
+                <a class="nav-link" href="./about-page/">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./../services-page/">Services</a>
@@ -106,19 +106,19 @@
                 <a class="nav-link" href="./../contact-page/">Contact</a>
               </li>
             </ul>
-            <div class="navbar_search">
+            <div class="navbar_search text-start">
               <a data-bs-toggle="modal" data-bs-target="#searchOverlay">
                 <i class="fa-solid fa-magnifying-glass"></i
               ></a>
             </div>
-            <div class="navbar_mode" id="theme-toggle">
-              <i class="gg-moon" id="theme-icon"></i>
-            </div>
+          </div>
+          <div class="navbar_mode" id="theme-toggle">
+            <i class="gg-moon" id="theme-icon"></i>
           </div>
         </div>
       </nav>
     </header>
-
+    <div class="header_space"></div>
     <!-- Banner  -->
 
     <section class="pc_banner text-center">
