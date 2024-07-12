@@ -207,6 +207,7 @@ header.nav-fixed {
 
 header .header_site {
   background-color: var(--bg-color);
+  transition: all 0.5s;
 }
 
 .navbar .navbar-brand {
