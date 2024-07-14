@@ -89,4 +89,7 @@
     grid-template-columns: 1fr;
     gap: 20px;
   }
+  .ct_map iframe {
+    height: 200px;
+  }
 }

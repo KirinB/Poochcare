@@ -987,6 +987,16 @@ footer .social_footer > ul li {
 /* Mobile  */
 
 @media only screen and (max-width: 992px) {
+  /* Global CSS  */
+
+  .pc_banner h2 {
+    font-size: 34px;
+  }
+
+  .pc_title h2 {
+    font-size: 34px;
+  }
+
   .navbar_mode {
     position: absolute;
     right: 80px;

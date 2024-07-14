@@ -131,3 +131,50 @@
   background: var(--primary-color);
   color: #fff;
 }
+
+/* responsive  */
+
+@media screen and (max-width: 992px) {
+  /* About Us */
+  .ab_about h4 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .ab_about p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  /* History  */
+  .ab_history .history_list {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 40px;
+  }
+  /* Why choose us  */
+  .ab_wcu_right {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .ab_wcu_list {
+    padding: 15px;
+  }
+  .ab_wcu_list .ab_wcu_text {
+    margin-top: 14px;
+  }
+  .ab_wcu_list .ab_wcu_text a {
+    font-size: 22px;
+  }
+  /* Our Team  */
+  .ab_team .ab_team_name a {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .ab_team .ab_team_name p {
+    font-size: 15px;
+  }
+  .ab_team .ab_team_socials a i {
+    margin-right: 0;
+  }
+}
