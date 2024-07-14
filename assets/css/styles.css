@@ -912,6 +912,10 @@ footer .social_footer > ul li {
   visibility: hidden;
 }
 
+.back_to_top a:hover {
+  transform: translateY(-5px);
+}
+
 .back_to_top .cd-top--is-visible {
   visibility: visible;
   opacity: 1;
