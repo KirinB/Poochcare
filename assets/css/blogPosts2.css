@@ -123,7 +123,7 @@ span.page-numbers {
   padding: 0;
   font-size: 20px;
   font-weight: 600;
-  margin-right: 5px;
+  margin: 0 5px;
 }
 a.page-numbers {
   font-size: 20px;
